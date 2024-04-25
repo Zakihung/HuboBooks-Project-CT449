@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubo Books</title>
+    <link rel="shortcut icon" href="@/assets/images/logo.png">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="/src/assets/css/bootstrap.min.css">
+    <script src="/src/assets/js/bootstrap.min.js"></script>
+    
+    <!-- custom css and js file link  -->
+    <link rel="stylesheet" href="/src/assets/css/style.css">
+    <script src="/src/assets/js/jquery-3.7.1.min.js"></script>
+    <script src="/src/assets/js/lang.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id='af-preloader'>
+      <div class='af-preloader-wrap'>
+          <div class='af-sp af-sp-wave'></div>
+      </div>
+    </div>
+    <script>
+      $(window).on('load', function() {$('#af-preloader').delay(500).fadeOut('slow')})
+    </script>
+    <script type="module" src="/src/main.js"></script>
+    <script src="/src/assets/js/script.js"></script>
+
+  </body>
+</html>
